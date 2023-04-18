@@ -1,17 +1,23 @@
 .itemContainer {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 0;
-  }
-  
-  .closeBtn {
-    color: red;
-    font-weight: 800;
-  }
-  
-  .closeBtn:hover {
-    cursor: pointer;
-  }
-  .completed {
-    text-decoration: line-through;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 0;
+}
+
+.closeBtn {
+  color: brown;
+  font-weight: 800;
+  width: 30px;
+  height: 30px;
+}
+
+.closeBtn:hover {
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+  color: darkgreen;
+}
+.prevDate{
+  color: brown;
+}
